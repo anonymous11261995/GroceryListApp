@@ -1,0 +1,203 @@
+<resources>
+    <string name="name_language">Pусский</string>
+    <!-- **********Translate************ -->
+    <string name="default_name_shopping_list">Список покупок</string>
+    <string name="default_name_pantry_list">Список инвентаря</string>
+    <string name="default_other_category">Другой</string>
+    <string name="default_category_bought">Купили</string>
+    <string name="try_saying_something">Сказать...</string>
+    <string name="item_hint">добавлять</string>
+    <string name="all_text_add_item_to_list">Для того, чтобы:</string>
+
+    <string name="abc_next">следующий</string>
+    <string name="abc_skip">Пропускать</string>
+    <string name="abc_got_it">Хорошо</string>
+    <string name="abc_create">Создайте</string>
+    <string name="abc_cancel">отменить</string>
+    <string name="abc_continue">Продолжить</string>
+    <string name="abc_confirm">подтвердить</string>
+    <string name="abc_edit">Обновить</string>
+    <string name="abc_delete">удалять</string>
+    <string name="abc_done">Готово</string>
+    <string name="abc_ingredient">Ингредиенты</string>
+    <string name="abc_instruction">инструкция</string>
+    <string name="abc_low">Низкий</string>
+    <string name="abc_full">Полный</string>
+    <string name="abc_back">назад</string>
+    <string name="abc_save">Сохранить</string>
+    <string name="abc_share">Поделиться</string>
+    <string name="abc_share_via">Поделиться...</string>
+    <string name="abc_quantity">Кол-во</string>
+    <string name="abc_unit_price">Цена</string>
+    <string name="abc_unit">Единица измерения</string>
+    <string name="abc_category">категории</string>
+    <string name="abc_notes">Заметка</string>
+    <string name="abc_undo"><u>Undo</u></string>
+    <string name="abc_add">добавлять</string>
+    <string name="abc_settings">настройки</string>
+    <string name="abc_languages">язык</string>
+    <string name="abc_backup">Резервное копирование</string>
+    <string name="abc_restore">Восстановить</string>
+    <string name="abc_expired">Истекший</string>
+    <string name="abc_created">созданный</string>
+    <string name="abc_url">Url</string>
+
+    <string name="drawer_title">Помогите</string>
+    <string name="drawer_title_settings">настройки</string>
+    <string name="drawer_shopping_list">Покупка</string>
+    <string name="drawer_recipe">Рецепт</string>
+    <string name="drawer_pantry">инвентарь</string>
+    <string name="drawer_about">Около</string>
+    <string name="drawer_support">Служба поддержки</string>&gt;
+    <string name="drawer_update_app">Обновить*</string>
+
+    <string name="action_create_list">Создать список</string>
+    <string name="action_delete_all">Удалить все</string>
+    <string name="action_check_all">Проверить все</string>
+    <string name="action_uncheck_all">Снять все</string>
+    <string name="action_delete_list">Удалить список</string>
+    <string name="action_category_manage">Управление категориями</string>
+    <string name="action_delete">удалять</string>
+    <string name="action_rename_list">Переименовать список</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="action_unselect_all">Снять все</string>
+    <string name="action_to_pantrylist">Переместить в инвентарь</string>
+
+
+    <string name="sl_showcase_swipe">Проведите по экрану, чтобы удалить</string>
+    <string name="sl_showcase_move">Переехать</string>
+    <string name="sl_cart_total_price">Корзина Всего:</string>
+    <string name="sl_list_total_price">Список Всего:</string>
+    <string name="sl_cart_total">Товары в корзине:</string>
+    <string name="sl_list_total">Элементы в списке:</string>
+    <string name="shopping_to_pantry_header_label">Выбрать для хранения</string>
+
+    <string name="recipe_book_header">Рецепт</string>
+    <string name="recipe_detail_header">Деталь рецепта</string>
+    <string name="recipe_book_warning_no_network">Без интернета</string>
+
+    <string name="list_share_text_header">Выберите, чтобы поделиться</string>
+
+    <string name="settings_autobackup_label">Автоматическое резервное копирование</string>
+    <string name="settings_restore_header_label">Список резервного копирования</string>
+    <string name="settings_restore_recycler_view_no_item_text">Нет резервной копии</string>
+
+    <string name="clipboard_text_header">Импорт текста</string>
+    <string name="clipboard_product_text_header">Выбрать для импорта</string>
+    <string name="clipboard_not_format_data">Недопустимый формат</string>
+    <string name="clipboard_button_clear_data">Очистить</string>
+    <string name="clipboard_button_import_text">Импортировать</string>
+
+    <string name="toast_no_item_selected">Элемент не выбран</string>
+    <string name="toast_list_empty">Ваш список пуст!</string>
+    <string name="toast_update_list_no_success">Не удалось обновить</string>
+    <string name="toast_no_internet_connection">Без интернета</string>
+    <string name="toast_backup_data_sucess">Успех резервного копирования</string>
+    <string name="toast_duplicate_name">Название существует</string>
+
+    <string name="dialog_title_rename_list">Новое имя</string>
+    <string name="dialog_title_voice">Ты имеешь ввиду…</string>
+    <string name="dialog_title_category_update">Новое имя</string>
+    <string name="dialog_title_select_language">Выберите язык</string>
+    <string name="dialog_title_choose_site_recipe">Выберите веб-сайт:</string>
+    <string name="dialog_message_create_list">Название списка</string>
+    <string name="dialog_message_create_category">Название категории</string>
+    <string name="dialog_message_confirm_delete_item">Удалить сейчас ?</string>
+    <string name="dialog_message_confirm_delete_all_item">Удалить все ?</string>
+    <string name="dialog_message_confirm_uncheck_all_item">Снять все ?</string>
+    <string name="dialog_message_confirm_delete_category">Удалить сейчас ?</string>
+    <string name="dialog_message_confirm_delete_list">Удалить сейчас ?</string>
+    <string name="dialog_message_confirm_delete_recipe_book">Удалить сейчас ?</string>
+    <string name="dialog_message_confirm_delete_srcurl">Удалить сейчас ?</string>
+    <string name="dialog_message_ingredient_to_shopping_list">Добавлены элементы</string>
+    <string name="dialog_message_pantry_list_to_shopping_list">Добавлены элементы</string>
+    <string name="dialog_message_shopping_list_to_pantry">Добавлены элементы</string>
+    <string name="dialog_message_item_share_to_shopping_list">Добавлены элементы</string>
+    <string name="dialog_message_add_item_website_sucess">Добавлен элемент</string>
+    <string name="dialog_message_recipe_book_add_success">Добавлен рецепт</string>
+    <string name="dialog_message_error">ошибка</string>
+    <string name="dialog_message_no_item_chooseed">Нет отмеченного элемента</string>
+    <string name="dialog_message_loading">Loading ...</string>
+    <string name="dialog_message_processing">Пожалуйста, подождите...</string>
+    <string name="dialog_message_clipboard_no_data">Нет данных</string>
+    <string name="dialog_message_backup_data">Теперь резервное копирование?</string>
+    <string name="dialog_message_backup_delete_all">Удалить все резервные копии?</string>
+    <string name="dialog_message_restore_data">«Restore перезапишет все данные! Продолжить?»</string>
+
+    <string name="slide_1_title">Добро пожаловать!</string>
+    <string name="slide_1_desc">BList - это не просто приложение списка покупок, но метод поможет вам экономить деньги и усилия на покупках для семьи.</string>
+    <string name="slide_2_title">Список покупок</string>
+    <string name="slide_2_desc">Быстрое добавление предметов нужно покупать, устраивать предметы по пути покупок, отслеживать покупки.</string>
+    <string name="slide_3_title">Список инвентаря</string>
+    <string name="slide_3_desc">Отслеживайте нужные предметы по месту или цели, напоминайте срок действия или заправку.</string>
+    <string name="slide_4_title">Поделиться и отправить</string>
+    <string name="slide_4_desc">Делитесь покупками с членами семьи и друзьями, обменивайтесь списками шаблонов.</string>
+    <string name="slide_5_title">Получите удовольствие</string>
+    <string name="slide_5_desc">Практикуя эти шаги, вы будете удивлены тем, насколько удобны покупки в продуктовых магазинах и сколько времени и денег сохранено. \ N Пожалуйста, проверьте &lt;a href="http://help.blistapp.com"&gt; здесь &lt;/a&gt; для обновить полезные советы и сохранить мастерство BList на вашем пути.</string>
+
+    <string name="guide_shopping_list">Ваш список пуст</string>
+    <string name="guide_pantry_list">Ваш список пуст</string>
+    <string name="guide_recipe_book">Нет рецепта, Нажмите (), чтобы добавить</string>
+
+    <string name="rta_dialog_title">Оценить BList</string>
+    <string name="rta_dialog_message">Ваш голос поможет улучшить BList, спасибо!</string>
+    <string name="rta_dialog_ok">Сейчас</string>
+    <string name="rta_dialog_cancel">Потом</string>
+    <string name="rta_dialog_no">Нет, спасибо</string>
+
+
+    <string name="update_app_dialog_title">Доступна новая версия</string>
+    <string name="update_app_dialog_message">Вы хотите обновить?</string>
+    <string name="update_app_button_update">Сейчас</string>
+    <string name="update_app_button_late">Потом</string>
+
+
+    <string-array name="categories">
+        <item>Фрукты</item>
+        <item>Мясо</item>
+        <item>Овощи</item>
+        <item>замороженный</item>
+        <item>напитки</item>
+        <item>Соусы</item>
+        <item>Закуски</item>
+        <item>Морепродукты</item>
+    </string-array>
+    <string-array name="ingredient_unit">
+        <item>каждый</item>
+        <item>кусок</item>
+        <item>мешок</item>
+        <item>бутылка</item>
+        <item>коробка</item>
+        <item>дело</item>
+        <item>пак</item>
+        <item>яс</item>
+        <item>Можно</item>
+        <item>гроздь</item>
+        <item>рулон</item>
+        <item>дюжина</item>
+        <item>маленький</item>
+        <item>большой</item>
+        <item>кружка</item>
+        <item>ч.л.</item>
+        <item>г</item>
+        <item>кг</item>
+        <item>L</item>
+        <item>PTS</item>
+        <item>унции</item>
+    </string-array>
+    <string name="abc_bought">Купили</string>
+    <string name="colorpicker_dialog_title">Выберите цвет</string>
+    <string name="action_multi_list">Просмотр нескольких списков</string>
+    <string name="action_manage_lists" translatable="false">Управление списками</string>
+    <string name="toast_no_selected_list">Нет выбранного списка</string>
+    <string name="dialog_title_choice_list" translatable="false">Выбрать список</string>
+    <string name="shopping_multi_list_text_button">Сменить цвет</string>
+    <string name="shopping_multi_list_text_choose_color">Выберите цвет</string>
+    <string name="shopping_multi_list_text_current_color">Текущий цвет</string>
+    <string name="action_quick_set_quantity">Быстрое заданное количество</string>
+    <string name="toast_turn_on_keep_awake">Экран будет бодрствовать</string>
+    <string name="toast_turn_off_keep_awake">Экран может снова заснуть</string>
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

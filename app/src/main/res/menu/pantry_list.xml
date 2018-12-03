@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screen.activity.MainActivity">
+    <item
+        android:id="@+id/action_create_list"
+        android:orderInCategory="150"
+        android:title="@string/action_create_list"
+        app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/action_share"-->
+    <!--android:orderInCategory="200"-->
+    <!--android:title="@string/action_share_list"-->
+    <!--app:actionProviderClass="android.support.v7.widget.ShareActionProvider"-->
+    <!--app:showAsAction="never"  />-->
+    <item
+        android:id="@+id/action_delete_all"
+        android:orderInCategory="430"
+        android:title="@string/action_delete_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_check_all"
+        android:orderInCategory="450"
+        android:title="@string/action_check_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_uncheck_all"
+        android:orderInCategory="460"
+        android:title="@string/action_uncheck_all"
+        app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/action_category_manage"-->
+    <!--android:orderInCategory="460"-->
+    <!--android:title="@string/action_category_manage"-->
+    <!--app:showAsAction="never" />-->
+    <!--<item-->
+    <!--android:id="@+id/action_manage_category"-->
+    <!--android:orderInCategory="500"-->
+    <!--android:title="@string/manage_category"-->
+    <!--app:showAsAction="never" />-->
+    <!--<item-->
+    <!--android:id="@+id/action_sort_options"-->
+    <!--android:orderInCategory="600"-->
+    <!--android:title="@string/action_sort_options"-->
+    <!--app:showAsAction="never" />-->
+    <!--<item-->
+    <!--android:id="@+id/action_manage_list"-->
+    <!--android:orderInCategory="930"-->
+    <!--android:title="@string/action_manage_list"-->
+    <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_rename_list"
+        android:orderInCategory="930"
+        android:title="@string/action_rename_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_list"
+        android:orderInCategory="950"
+        android:title="@string/action_delete_list"
+        app:showAsAction="never" />
+</menu>

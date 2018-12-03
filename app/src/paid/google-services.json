@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "956893732565",
+    "firebase_url": "https://blist-paid.firebaseio.com",
+    "project_id": "blist-paid",
+    "storage_bucket": "blist-paid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956893732565:android:b303b0a60c305915",
+        "android_client_info": {
+          "package_name": "com.best.grocery.list.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956893732565-rtod9fbeangl6kmh8bl42qq4h3ij4n82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaH3mIjnlRtC310SWgLlM4KQngwbAZK9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

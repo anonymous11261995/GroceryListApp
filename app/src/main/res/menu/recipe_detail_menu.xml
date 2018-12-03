@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/recipe_detail_check_all"
+        android:orderInCategory="450"
+        android:title="@string/action_check_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recipe_detail_uncheck_all"
+        android:orderInCategory="460"
+        android:title="@string/action_uncheck_all"
+        app:showAsAction="never" />
+
+</menu>

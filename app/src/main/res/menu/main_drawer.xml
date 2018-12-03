@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--Khi them item moi phai thay doi item update app -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shopping_list"
+            android:background="@drawable/custom_ripple"
+            android:icon="@drawable/ic_shopping_list"
+            android:title="@string/drawer_shopping_list" />
+        <item
+            android:id="@+id/nav_pantry_list"
+            android:background="@drawable/custom_ripple"
+            android:icon="@drawable/ic_pantry"
+            android:title="@string/drawer_pantry" />
+        <item
+            android:id="@+id/nav_recipe_book"
+            android:background="@drawable/custom_ripple"
+            android:icon="@drawable/ic_recipe_book"
+            android:title="@string/drawer_recipe" />
+    </group>
+    <item android:title="@string/drawer_title">
+
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_question"
+                android:title="@string/drawer_about" />
+            <item
+                android:id="@+id/nav_support"
+                android:background="@drawable/custom_ripple"
+                android:icon="@drawable/ic_support"
+                android:title="@string/drawer_support" />
+        </menu>
+    </item>
+    <item android:title="@string/drawer_title_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:background="@drawable/custom_ripple"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/drawer_title_settings" />
+            <item
+                android:id="@+id/nav_update"
+                android:background="@drawable/custom_ripple"
+                android:icon="@drawable/ic_refresh"
+                android:title="@string/drawer_update_app"
+                android:visible="false" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default app -->
+    <color name="colorPrimary">#3a5a01</color>
+    <color name="colorPrimaryDark">#2b4200</color>
+    <color name="colorAccent">#7db208</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGreen">#1ad21d</color>
+    <color name="colorRed">#d0011b</color>
+    <color name="colorBlue">#2347e9</color>
+    <color name="color_light_gray">#9b9b9b</color>
+    <!-- app -->
+    <color name="background_bottom_shopping_list">#555652</color>
+    <color name="background_product_header">#e0e0e0</color>
+    <color name="backgroud_product_checked">#bcdd7a</color>
+    <color name="backgroud_product_header_checked">#a9a8a8</color>
+    <color name="backgroud_warning_no_internet">#b30000</color>
+    <color name="bacground_spinner_recipe_detail">#bcdd7a</color>
+    <color name="bacground_spinner_pantry_list">#bcdd7a</color>
+    <color name="text_pantry_low_full_active">#7db208</color>
+    <color name="text_pantry_low_full_no_active">#c1bdbd</color>
+    <color name="color_text">#2b2b28</color>
+    <color name="color_text_no_active">#a1a1a0</color>
+    <color name="textColorHint">#808080</color>
+    <color name="webview_text_no_active">#bebebd</color>
+    <color name="webview_process_bar">#0051b3</color>
+    <color name="colorSwipeLeft">#cc3333</color>
+    <color name="colorSwipeRight">#7db208</color>
+    <color name="divider_horizontal">#acabab</color>
+    <color name="divider_item_horizontal">#d2d2d2</color>
+    <color name="divider_header_horizontal">#a7a7a7</color>
+    <color name="text_settings_label">#27c4b7</color>
+    <color name="colorControlHighlight">#9f9f9f</color>
+    <color name="btn_negative">#b9b9b9</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#3a5a01</color>
+    <color name="bg_screen2">#7db208</color>
+    <color name="bg_screen3">#3a5a01</color>
+    <color name="bg_screen4">#7db208</color>
+    <color name="bg_screen5">#3a5a01</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#272a15</color>
+    <color name="dot_dark_screen2">#272a15</color>
+    <color name="dot_dark_screen3">#272a15</color>
+    <color name="dot_dark_screen4">#272a15</color>
+    <color name="dot_dark_screen5">#272a15</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#b6dac5</color>
+    <color name="dot_light_screen2">#b6dac5</color>
+    <color name="dot_light_screen3">#b6dac5</color>
+    <color name="dot_light_screen4">#b6dac5</color>
+    <color name="dot_light_screen5">#b6dac5</color>
+    <color name="text_color_primary">#272a15</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroud_product_header_checked">
+
+    <TextView
+        android:id="@+id/recipe_detail_instructions_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/list_header_margin_horizontal"
+        android:layout_marginVertical="@dimen/list_header_margin_vertical"
+        android:gravity="start|center"
+        android:text="@string/abc_instruction"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+</LinearLayout>

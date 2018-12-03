@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "580218503507",
+    "firebase_url": "https://blist-403e9.firebaseio.com",
+    "project_id": "blist-403e9",
+    "storage_bucket": "blist-403e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580218503507:android:75d998c8a45b7a8a",
+        "android_client_info": {
+          "package_name": "com.best.grocery.list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580218503507-63gljei1acnrcgsu7j9ib7assgvts6nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.best.grocery.list",
+            "certificate_hash": "5cb96c4079d3e31414f07e45d37d314a3441c45f"
+          }
+        },
+        {
+          "client_id": "580218503507-nrm03c8rateaecsuk01540vg4orkomrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_NDwTtoSYeIjv9IfuBEUEtXxW7fQVpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580218503507-nrm03c8rateaecsuk01540vg4orkomrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

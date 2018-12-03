@@ -1,0 +1,227 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.best.grocery"
+        minSdkVersion 19
+        targetSdkVersion 28
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+//        debug {
+//            debuggable true
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+    }
+    flavorDimensions 'version'
+    productFlavors {
+        free {
+            applicationIdSuffix ".list"
+            buildConfigField "boolean", "PAID_VERSION", "false"
+            dimension 'version'
+            versionCode 44
+            versionName "3.6"
+        }
+        paid {
+            applicationIdSuffix ".list.pro"
+            buildConfigField "boolean", "PAID_VERSION", "true"
+            dimension 'version'
+            versionCode 27
+            versionName "1.8"
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDir 'src/main/libs'
+        }
+        free {
+            java.srcDirs = ['src/free/java',]
+            resources.srcDirs = ['src/free/resources',]
+        }
+
+        paid {
+            java.srcDirs = ['src/paid/java',]
+            resources.srcDirs = ['src/paid/resources',]
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.4'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    //others
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'org.jsoup:jsoup:1.11.3'
+    //Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-config:16.0.0'
+    implementation 'com.google.firebase:firebase-firestore:17.1.0'
+    //test
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //version free
+    freeImplementation 'com.google.android.gms:play-services-ads:15.0.0'
+    freeImplementation 'com.google.firebase:firebase-ads:11.8.0'
+
+}
+
+task convertDimens() {
+    def xmlFile = "${project.rootDir}/app/src/main/res/values/dimens.xml"
+    def xmlFile240 = "${project.rootDir}/app/src/main/res/values-sw240dp/dimens.xml"
+    def xmlFile320 = "${project.rootDir}/app/src/main/res/values-sw320dp/dimens.xml"
+    def xmlFile360 = "${project.rootDir}/app/src/main/res/values-sw360dp/dimens.xml"
+    def xmlFile480 = "${project.rootDir}/app/src/main/res/values-sw480dp/dimens.xml"
+    def xmlFile560 = "${project.rootDir}/app/src/main/res/values-sw560dp/dimens.xml"
+    def xmlFile600 = "${project.rootDir}/app/src/main/res/values-sw600dp/dimens.xml"
+
+    def xmlOriginal = new XmlParser().parse(xmlFile)
+
+    def xml240 = xmlOriginal.clone()
+    def xml320 = xmlOriginal.clone()
+   // def xml360 = xmlOriginal.clone()
+    def xml480 = xmlOriginal.clone()
+    def xml560 = xmlOriginal.clone() //set default screen
+    def xml600 = xmlOriginal.clone()
+
+    xml240.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((240 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((240 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((240 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+    xml320.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((320 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((320 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((320 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+
+    xml480.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+    xml480.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((480 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+    xml560.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((560 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((560 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((560 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+    xml600.dimen.each { dimen ->
+        def value = dimen.text();
+        if (value.contains("sp")) {
+            def newValue = value.replace("sp", "").toFloat()
+            newValue = round((600 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "sp"
+        } else if (value.contains("px")) {
+            def newValue = value.replace("px", "").toFloat()
+            newValue = round((600 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "px"
+        } else {
+            def newValue = value.replace("dp", "").toFloat()
+            newValue = round((600 / 360 * newValue).toFloat(), 2);
+            dimen.value = newValue + "dp"
+        }
+    }
+
+
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile240))).print(xml240)
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile320))).print(xml320)
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile360))).print(xmlOriginal)
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile480))).print(xml480)
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile560))).print(xml560)
+    new XmlNodePrinter(new PrintWriter(new FileWriter(xmlFile600))).print(xml600)
+}
+
+static float round(float d, int decimalPlace) {
+    BigDecimal bd = new BigDecimal(Float.toString(d));
+    bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+    return bd.floatValue();
+}
+
+clean.dependsOn convertDimens
+

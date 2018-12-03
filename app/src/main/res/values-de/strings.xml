@@ -1,0 +1,200 @@
+<resources>
+    <string name="name_language">Deutsch</string>
+    <!-- **********Translate************ -->
+    <string name="default_name_shopping_list">Einkaufsliste</string>
+    <string name="default_name_pantry_list">Inventarliste</string>
+    <string name="default_other_category">Andere</string>
+    <string name="default_category_bought">Gekauft</string>
+    <string name="try_saying_something">Sagen...</string>
+    <string name="item_hint">Hinzufügen</string>
+    <string name="all_text_add_item_to_list">Zu:</string>
+
+    <string name="abc_next">Nächster</string>
+    <string name="abc_skip">Überspringen</string>
+    <string name="abc_got_it">OK</string>
+    <string name="abc_create">Erstellen</string>
+    <string name="abc_cancel">Stornieren</string>
+    <string name="abc_continue">Fortsetzen</string>
+    <string name="abc_confirm">Bestätigen</string>
+    <string name="abc_edit">Aktualisieren</string>
+    <string name="abc_delete">Löschen</string>
+    <string name="abc_done">Erledigt</string>
+    <string name="abc_ingredient">Zutaten</string>
+    <string name="abc_instruction">Anweisung</string>
+    <string name="abc_low">Niedrig</string>
+    <string name="abc_full">Voll</string>
+    <string name="abc_back">Zurück</string>
+    <string name="abc_save">sparen</string>
+    <string name="abc_share">Aktie</string>
+    <string name="abc_share_via">Aktie...</string>
+    <string name="abc_quantity">Menge</string>
+    <string name="abc_unit_price">Preis</string>
+    <string name="abc_unit">Einheit</string>
+    <string name="abc_category">Kategorien</string>
+    <string name="abc_notes">Hinweis</string>
+    <string name="abc_undo"><u>Undo</u></string>
+    <string name="abc_add">Hinzufügen</string>
+    <string name="abc_settings">die Einstellungen</string>
+    <string name="abc_languages">Sprache</string>
+    <string name="abc_backup">Backup</string>
+    <string name="abc_restore">Wiederherstellen</string>
+    <string name="abc_expired">Abgelaufen</string>
+    <string name="abc_created">Erstellt</string>
+    <string name="abc_url">URL</string>
+    <string name="abc_bought">Gekauft</string>
+
+    <string name="drawer_title">Hilfe</string>
+    <string name="drawer_title_settings">die Einstellungen</string>
+    <string name="drawer_shopping_list">Einkaufen</string>
+    <string name="drawer_recipe">Rezept</string>
+    <string name="drawer_pantry">Inventar</string>
+    <string name="drawer_about">Über</string>
+    <string name="drawer_support">Unterstützung</string>&gt;
+    <string name="drawer_update_app">Aktualisieren*</string>
+
+    <string name="action_create_list">Erstelle Liste</string>
+    <string name="action_delete_all">Alles löschen</string>
+    <string name="action_check_all">Alle überprüfen</string>
+    <string name="action_uncheck_all">Alle deaktivieren</string>
+    <string name="action_delete_list">Liste löschen</string>
+    <string name="action_category_manage">Kategorien verwalten</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_rename_list">Liste umbenennen</string>
+    <string name="action_select_all">Wählen Sie Alle</string>
+    <string name="action_unselect_all">Alles wiederufen</string>
+    <string name="action_to_pantrylist">Bewegen Sie sich ins Inventar</string>
+
+
+    <string name="sl_showcase_swipe">Zum Löschen streichen</string>
+    <string name="sl_showcase_move">Bewegung</string>
+    <string name="sl_cart_total_price">Einkaufswagen insgesamt:</string>
+    <string name="sl_list_total_price">List Total:</string>
+    <string name="sl_cart_total">Artikel im Warenkorb:</string>
+    <string name="sl_list_total">Elemente in der Liste:</string>
+    <string name="shopping_to_pantry_header_label">Zum Speichern auswählen</string>
+
+    <string name="recipe_book_header">Rezept</string>
+    <string name="recipe_detail_header">Rezeptdetail</string>
+    <string name="recipe_book_warning_no_network">Kein Internet</string>
+
+    <string name="list_share_text_header">Wählen Sie zum Teilen aus</string>
+
+    <string name="settings_autobackup_label">Automatisches Backup</string>
+    <string name="settings_restore_header_label">Sicherungsliste</string>
+    <string name="settings_restore_recycler_view_no_item_text">Keine Sicherung</string>
+
+    <string name="clipboard_text_header">Textimport</string>
+    <string name="clipboard_product_text_header">Wählen Sie zum Importieren aus</string>
+    <string name="clipboard_not_format_data">Ungültiges Format</string>
+    <string name="clipboard_button_clear_data">klar</string>
+    <string name="clipboard_button_import_text">Einführen</string>
+
+    <string name="toast_no_item_selected">Kein Artikel ausgewählt</string>
+    <string name="toast_list_empty">Ihre Liste ist leer!</string>
+    <string name="toast_update_list_no_success">Update fehlgeschlagen</string>
+    <string name="toast_no_internet_connection">Kein Internet</string>
+    <string name="toast_backup_data_sucess">Backup-Erfolg</string>
+    <string name="toast_duplicate_name">Name existiert</string>
+
+    <string name="dialog_title_rename_list">Neuer Name</string>
+    <string name="dialog_title_voice">Meinst du…</string>
+    <string name="dialog_title_category_update">Neuer Name</string>
+    <string name="dialog_title_select_language">Sprache auswählen</string>
+    <string name="dialog_title_choose_site_recipe">Website auswählen:</string>
+    <string name="dialog_message_create_list">Listennamen</string>
+    <string name="dialog_message_create_category">Kategoriename</string>
+    <string name="dialog_message_confirm_delete_item">Jetzt löschen ?</string>
+    <string name="dialog_message_confirm_delete_all_item">Alles löschen ?</string>
+    <string name="dialog_message_confirm_uncheck_all_item">Alle deaktivieren ?</string>
+    <string name="dialog_message_confirm_delete_category">Jetzt löschen ?</string>
+    <string name="dialog_message_confirm_delete_list">Jetzt löschen ?</string>
+    <string name="dialog_message_confirm_delete_recipe_book">Jetzt löschen ?</string>
+    <string name="dialog_message_confirm_delete_srcurl">Jetzt löschen ?</string>
+    <string name="dialog_message_ingredient_to_shopping_list">Artikel hinzugefügt</string>
+    <string name="dialog_message_pantry_list_to_shopping_list">Artikel hinzugefügt</string>
+    <string name="dialog_message_shopping_list_to_pantry">Artikel hinzugefügt</string>
+    <string name="dialog_message_item_share_to_shopping_list">Artikel hinzugefügt</string>
+    <string name="dialog_message_add_item_website_sucess">Artikel hinzugefügt</string>
+    <string name="dialog_message_recipe_book_add_success">Rezept hinzugefügt</string>
+    <string name="dialog_message_error">Error</string>
+    <string name="dialog_message_no_item_chooseed">Kein geprüfter Artikel</string>
+    <string name="dialog_message_loading">Wird geladen...</string>
+    <string name="dialog_message_processing">Warten Sie mal...</string>
+    <string name="dialog_message_clipboard_no_data">Keine Daten</string>
+    <string name="dialog_message_backup_data">Jetzt sichern</string>
+    <string name="dialog_message_backup_delete_all">Alle Backups löschen?</string>
+    <string name="dialog_message_restore_data">"Bei der Wiederherstellung werden alle Daten überschrieben !!! Weiter?"</string>
+
+    <string name="slide_1_title">Herzlich willkommen!</string>
+    <string name="slide_1_desc">BList ist nicht nur eine Einkaufslisten-Anwendung, sondern hilft Ihnen, Geld und Mühe beim Einkaufen für die Familie zu sparen.</string>
+    <string name="slide_2_title">Einkaufsliste</string>
+    <string name="slide_2_desc">Schnell hinzuzufügende Artikel müssen kaufen, Artikel nach Einkaufspfad ordnen, einkaufen.</string>
+    <string name="slide_3_title">Inventarliste</string>
+    <string name="slide_3_desc">Verfolgen Sie die benötigten Artikel nach Standort oder Zweck, erinnern Sie den Ablauf oder das Auffüllen.</string>
+    <string name="slide_4_title">Teilen und senden</string>
+    <string name="slide_4_desc">Teilen Sie Ihre Einkäufe mit Familienmitgliedern und Freunden, teilen Sie Listenvorlagen mit.</string>
+    <string name="slide_5_title">Einkaufen genießen</string>
+    <string name="slide_5_desc">Sie werden überrascht sein, wie einfach einkaufen ist und wie viel Zeit und Geld gespart werden. \ N Bitte besuchen Sie &lt;a href="http://blistapp.com"&gt;Hier&lt;/a&gt; mehr wissen.</string>
+
+    <string name="guide_pantry_list">Ihre Liste ist leer</string>
+    <string name="guide_recipe_book">Kein Rezept, klicken Sie auf (), um hinzuzufügen</string>
+
+    <string name="rta_dialog_title">Bewerten Sie BList</string>
+    <string name="rta_dialog_message">Ihre Stimme wird dazu beitragen, BList zu verbessern, danke!</string>
+    <string name="rta_dialog_ok">Jetzt</string>
+    <string name="rta_dialog_cancel">Später</string>
+    <string name="rta_dialog_no">Nein Danke</string>
+
+
+    <string name="update_app_dialog_title">Neue Version verfügbar</string>
+    <string name="update_app_dialog_message">Möchten Sie ein Update durchführen?</string>
+    <string name="update_app_button_update">Jetzt</string>
+    <string name="update_app_button_late">Später</string>
+
+
+    <string-array name="categories">
+        <item>Obst</item>
+        <item>Fleisch</item>
+        <item>Gemüse</item>
+        <item>Gefroren</item>
+        <item>Getränke</item>
+        <item>Saucen</item>
+        <item>Snacks</item>
+        <item>Meeresfrüchte</item>
+    </string-array>
+    <string-array name="ingredient_unit">
+        <item>jeder</item>
+        <item>Stück</item>
+        <item>Tasche</item>
+        <item>Flasche</item>
+        <item>Box</item>
+        <item>Fall</item>
+        <item>Pack</item>
+        <item>Krug</item>
+        <item>können</item>
+        <item>Bündel</item>
+        <item>rollen</item>
+        <item>Dutzend</item>
+        <item>klein</item>
+        <item>groß</item>
+        <item>Tasse</item>
+        <item>tsp</item>
+        <item>G</item>
+        <item>kg</item>
+        <item>l</item>
+        <item>pts</item>
+        <item>Unzen</item>
+    </string-array>
+    <string name="colorpicker_dialog_title">Wähle die Farbe</string>
+    <string name="action_multi_list">Multi-Listen anzeigen</string>
+    <string name="action_manage_lists" translatable="false">Listen verwalten</string>
+    <string name="toast_no_selected_list">Keine ausgewählte Liste</string>
+    <string name="dialog_title_choice_list" translatable="false">Liste auswählen</string>
+    <string name="shopping_multi_list_text_button">Farbe ändern</string>
+    <string name="shopping_multi_list_text_choose_color">Wähle eine Farbe</string>
+    <string name="shopping_multi_list_text_current_color">Aktuelle Farbe</string>
+    <string name="guide_shopping_list">Ihre Liste ist leer</string>
+    <string name="action_quick_set_quantity">Schnelle Menge</string>
+    <string name="toast_turn_on_keep_awake">Bildschirm bleibt wach</string>
+    <string name="toast_turn_off_keep_awake">Bildschirm kann wieder schlafen</string>
+</resources>

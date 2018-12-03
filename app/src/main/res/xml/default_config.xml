@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>ads_shopping_list</key>
+        <value>ON</value>
+    </entry>
+    <entry>
+        <key>ads_recipe_book</key>
+        <value>ON</value>
+    </entry>
+
+    <entry>
+        <key>last_ads_promo</key>
+        <value>2018-09-02</value>
+    </entry>
+    <entry>
+        <key>ads_launch_time</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>rate_app_install_day</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>rate_app_launch_time</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>backup_schedule_days</key>
+        <value>5</value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".screen.activity.MainActivity">
+    <item
+        android:id="@+id/action_create_list"
+        android:orderInCategory="1"
+        android:title="@string/action_create_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_all"
+        android:orderInCategory="2"
+        android:title="@string/action_delete_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_check_all"
+        android:orderInCategory="3"
+        android:title="@string/action_check_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_uncheck_all"
+        android:orderInCategory="4"
+        android:title="@string/action_uncheck_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_snooze"
+        android:orderInCategory="4"
+        android:title="@string/action_show_snoozed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_move_copy_items"
+        android:orderInCategory="5"
+        android:title="@string/action_move_copy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quick_set_qty"
+        android:orderInCategory="6"
+        android:title="@string/action_quick_set_quantity"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_multi_list"
+        android:orderInCategory="7"
+        android:title="@string/action_multi_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_category_manage"
+        android:orderInCategory="8"
+        android:title="@string/action_category_manage"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_manage_list"
+        android:orderInCategory="9"
+        android:title="@string/action_manage_lists"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_shopping_to_pantry"
+        android:orderInCategory="9"
+        android:title="@string/action_to_pantrylist"
+        app:showAsAction="never" />
+
+</menu>

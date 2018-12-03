@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/recipe_menu_view_ingredients"-->
+        <!--android:orderInCategory="430"-->
+        <!--android:title="@string/aciton_view_ingredients"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/recipe_menu_view_recipe"-->
+        <!--android:orderInCategory="450"-->
+        <!--android:title="@string/action_view_recipe"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/recipe_menu_delete"
+        android:orderInCategory="460"
+        android:title="@string/action_delete"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,155 @@
+<resources>
+  <dimen name="activity_horizontal_margin">
+    26.67dp
+  </dimen>
+  <dimen name="activity_vertical_margin">
+    26.67dp
+  </dimen>
+  <dimen name="abc_ic_plus_margin">
+    26.67dp
+  </dimen>
+  <dimen name="abc_toolbar_item_pading">
+    13.33dp
+  </dimen>
+  <dimen name="abc_text_size_micro">
+    20.0sp
+  </dimen>
+  <dimen name="abc_text_size_small">
+    23.33sp
+  </dimen>
+  <dimen name="abc_text_size_medium">
+    30.0sp
+  </dimen>
+  <dimen name="abc_text_size_large">
+    36.67sp
+  </dimen>
+  <dimen name="abc_dropdown_list_item_height">
+    53.33dp
+  </dimen>
+  <dimen name="nav_header_padding">
+    26.67dp
+  </dimen>
+  <dimen name="nav_header_image_size">
+    125.0dp
+  </dimen>
+  <dimen name="nav_header_vertical_spacing">
+    13.33dp
+  </dimen>
+  <dimen name="nav_header_height">
+    291.67dp
+  </dimen>
+  <dimen name="nav_header_text_app_margin_left">
+    23.33dp
+  </dimen>
+  <dimen name="nav_header_text_size">
+    30.0sp
+  </dimen>
+  <dimen name="toolbar_spinner_margin_top">
+    11.67dp
+  </dimen>
+  <dimen name="toolbar_item_padding">
+    11.67dp
+  </dimen>
+  <dimen name="toolbar_autocomplete_height">
+    66.67dp
+  </dimen>
+  <dimen name="toobar_margin_start">
+    10.0dp
+  </dimen>
+  <dimen name="detail_item_pading">
+    13.33dp
+  </dimen>
+  <dimen name="detail_item_margin">
+    26.67dp
+  </dimen>
+  <dimen name="list_header_margin_horizontal">
+    13.33dp
+  </dimen>
+  <dimen name="list_header_margin_vertical">
+    10.0dp
+  </dimen>
+  <dimen name="list_item_margin">
+    13.33dp
+  </dimen>
+  <dimen name="list_item_height">
+    75.0dp
+  </dimen>
+  <dimen name="list_item_category_height">
+    66.67dp
+  </dimen>
+  <dimen name="list_item_text_size">
+    28.33sp
+  </dimen>
+  <dimen name="list_item_text_description_size">
+    21.67sp
+  </dimen>
+  <dimen name="list_item_category_text_size">
+    33.33sp
+  </dimen>
+  <dimen name="recipe_detail_image_size">
+    125.0dp
+  </dimen>
+  <dimen name="recipe_book_layout_size">
+    100.0dp
+  </dimen>
+  <dimen name="recipe_book_image_size">
+    108.33dp
+  </dimen>
+  <dimen name="welcome_dots_height">
+    50.0dp
+  </dimen>
+  <dimen name="welcome_dots_margin_bottom">
+    33.33dp
+  </dimen>
+  <dimen name="welcome_img_width_height">
+    200.0dp
+  </dimen>
+  <dimen name="welcome_img_margin_bottom">
+    33.33dp
+  </dimen>
+  <dimen name="welcome_slide_title">
+    50.0sp
+  </dimen>
+  <dimen name="welcome_slide_desc">
+    30.0sp
+  </dimen>
+  <dimen name="welcome_title_padding">
+    25.0dp
+  </dimen>
+  <dimen name="welcome_desc_padding">
+    25.0dp
+  </dimen>
+  <dimen name="welcome_ic_clear_margin">
+    93.33dp
+  </dimen>
+  <dimen name="shopping_list_autocomplete_width">
+    416.67dp
+  </dimen>
+  <dimen name="shopping_list_multi_list_max_width_header">
+    416.67dp
+  </dimen>
+  <dimen name="spinner_select_list_max_width">
+    366.67dp
+  </dimen>
+  <dimen name="spinner_select_list_height">
+    75.0dp
+  </dimen>
+  <dimen name="spinner_max_width">
+    333.33dp
+  </dimen>
+  <dimen name="action_button_height">
+    53.33dp
+  </dimen>
+  <dimen name="action_button_text_size">
+    26.67sp
+  </dimen>
+  <dimen name="action_button_min_width">
+    93.33dp
+  </dimen>
+  <dimen name="action_button_padding_horizontal">
+    6.67dp
+  </dimen>
+  <dimen name="swipe_ic_margin">
+    50.0dp
+  </dimen>
+</resources>

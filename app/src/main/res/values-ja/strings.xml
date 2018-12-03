@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_language">日本語</string>
+
+    <string name="default_name_shopping_list">買い物リスト</string>
+    <string name="default_name_pantry_list">在庫表</string>
+    <string name="default_other_category">その他</string>
+    <string name="default_category_bought">買った</string>
+    <string name="try_saying_something">いう...</string>
+    <string name="item_hint">追加</string>
+    <string name="all_text_add_item_to_list">に：</string>
+
+    <string name="abc_next">次</string>
+    <string name="abc_skip">スキップ</string>
+    <string name="abc_got_it">OK</string>
+    <string name="abc_create">作成する</string>
+    <string name="abc_cancel">キャンセル</string>
+    <string name="abc_continue">持続する</string>
+    <string name="abc_confirm">確認</string>
+    <string name="abc_edit">更新</string>
+    <string name="abc_delete">削除</string>
+    <string name="abc_done">完了</string>
+    <string name="abc_ingredient">材料</string>
+    <string name="abc_instruction">命令</string>
+    <string name="abc_low">低い</string>
+    <string name="abc_full">フル</string>
+    <string name="abc_back">バック</string>
+    <string name="abc_save">保存する</string>
+    <string name="abc_share">シェア</string>
+    <string name="abc_share_via">シェア...</string>
+    <string name="abc_quantity">数量</string>
+    <string name="abc_unit_price">価格</string>
+    <string name="abc_unit">単位</string>
+    <string name="abc_category">カテゴリー</string>
+    <string name="abc_notes">注意</string>
+    <string name="abc_undo"><u>Undo</u></string>
+    <string name="abc_add">追加</string>
+    <string name="abc_settings">設定</string>
+    <string name="abc_languages">言語</string>
+    <string name="abc_backup">バックアップ</string>
+    <string name="abc_restore">リストア</string>
+    <string name="abc_expired">期限切れ</string>
+    <string name="abc_created">作成した</string>
+    <string name="abc_url">URL</string>
+
+    <string name="drawer_title">助けて</string>
+    <string name="drawer_title_settings">設定</string>
+    <string name="drawer_shopping_list">ショッピング</string>
+    <string name="drawer_recipe">レシピ</string>
+    <string name="drawer_pantry">目録</string>
+    <string name="drawer_about">約</string>
+    <string name="drawer_support">サポート</string>&gt;
+    <string name="drawer_update_app">更新*</string>
+
+    <string name="action_create_list">リストを作成する</string>
+    <string name="action_delete_all">すべて削除</string>
+    <string name="action_check_all">すべて調べる</string>
+    <string name="action_uncheck_all">すべてのチェックを外す</string>
+    <string name="action_delete_list">リストを削除する</string>
+    <string name="action_category_manage">カテゴリを管理する</string>
+    <string name="action_delete">削除</string>
+    <string name="action_rename_list">リストの名前を変更する</string>
+    <string name="action_select_all">すべて選択</string>
+    <string name="action_unselect_all">すべての選択を解除する</string>
+    <string name="action_to_pantrylist">在庫に移動</string>
+
+
+    <string name="sl_showcase_swipe">スワイプして削除する</string>
+    <string name="sl_showcase_move">移動</string>
+    <string name="sl_cart_total_price">カート合計：</string>
+    <string name="sl_list_total_price">リスト総数：</string>
+    <string name="sl_cart_total">カートの中のアイテム：</string>
+    <string name="sl_list_total">リスト内の項目：</string>
+    <string name="shopping_to_pantry_header_label">選択して保存する</string>
+
+    <string name="recipe_book_header">レシピ</string>
+    <string name="recipe_detail_header">レシピの詳細</string>
+    <string name="recipe_book_warning_no_network">インターネットがない</string>
+
+    <string name="list_share_text_header">選択して共有する</string>
+
+    <string name="settings_autobackup_label">自動バックアップ</string>
+    <string name="settings_restore_header_label">バックアップリスト</string>
+    <string name="settings_restore_recycler_view_no_item_text">バックアップなし</string>
+
+    <string name="clipboard_text_header">テキストのインポート</string>
+    <string name="clipboard_product_text_header">選択してインポートする</string>
+    <string name="clipboard_not_format_data">無効な形式</string>
+    <string name="clipboard_button_clear_data">クリア</string>
+    <string name="clipboard_button_import_text">インポート</string>
+
+    <string name="toast_no_item_selected">アイテムが選択されていませ</string>
+    <string name="toast_list_empty">あなたのリストは空です！</string>
+    <string name="toast_update_list_no_success">アップデートに失敗しました</string>
+    <string name="toast_no_internet_connection">インターネットがない</string>
+    <string name="toast_backup_data_sucess">バックアップの成功</string>
+    <string name="toast_duplicate_name">名前が存在する</string>
+
+    <string name="dialog_title_rename_list">新しい名前</string>
+    <string name="dialog_title_voice">あなたはどういう意味ですか...</string>
+    <string name="dialog_title_category_update">新しい名前</string>
+    <string name="dialog_title_select_language">言語を選択する</string>
+    <string name="dialog_title_choose_site_recipe">ウェブサイトを選択：</string>
+    <string name="dialog_message_create_list">リスト名</string>
+    <string name="dialog_message_create_category">種別名</string>
+    <string name="dialog_message_confirm_delete_item">今すぐ削除？</string>
+    <string name="dialog_message_confirm_delete_all_item">すべて削除 ？</string>
+    <string name="dialog_message_confirm_uncheck_all_item">すべてのチェックボックスをオフにしますか？</string>
+    <string name="dialog_message_confirm_delete_category">今すぐ削除？</string>
+    <string name="dialog_message_confirm_delete_list">今すぐ削除？</string>
+    <string name="dialog_message_confirm_delete_recipe_book">今すぐ削除？</string>
+    <string name="dialog_message_confirm_delete_srcurl">今すぐ削除？</string>
+    <string name="dialog_message_ingredient_to_shopping_list">追加されたアイテム</string>
+    <string name="dialog_message_pantry_list_to_shopping_list">追加されたアイテム</string>
+    <string name="dialog_message_shopping_list_to_pantry">追加されたアイテム</string>
+    <string name="dialog_message_item_share_to_shopping_list">追加されたアイテム</string>
+    <string name="dialog_message_add_item_website_sucess">アイテム追加</string>
+    <string name="dialog_message_recipe_book_add_success">レシピ追加</string>
+    <string name="dialog_message_error">エラー</string>
+    <string name="dialog_message_no_item_chooseed">チェック項目はありません</string>
+    <string name="dialog_message_loading">読み込んでいます...</string>
+    <string name="dialog_message_processing">お待ちください...</string>
+    <string name="dialog_message_clipboard_no_data">データなし</string>
+    <string name="dialog_message_backup_data">今バックアップ？</string>
+    <string name="dialog_message_backup_delete_all">すべてのバックアップを削除しますか？</string>
+    <string name="dialog_message_restore_data">"復元はすべてのデータを上書きします!!!続行しますか？"</string>
+
+    <string name="slide_1_title">ようこそ！</string>
+    <string name="slide_1_desc">BListは単なる買い物リストアプリケーションではありませんが、方法はお金を節約し、家族のためのショッピングに役立ちます。</string>
+    <string name="slide_2_title">買い物リスト</string>
+    <string name="slide_2_desc">クイック追加アイテムは購入する必要があり、ショッピングパスで商品を手配し、ショッピングを追跡する必要があります。</string>
+    <string name="slide_3_title">在庫表</string>
+    <string name="slide_3_desc">場所や目的別に必要なアイテムを追跡し、期限切れや補充を思い出させる。</string>
+    <string name="slide_4_title">共有と送信</string>
+    <string name="slide_4_desc">家族や友人とショッピングの仕事を共有し、リストのテンプレートを共有します。</string>
+    <string name="slide_5_title">ショッピングを楽しむ</string>
+    <string name="slide_5_desc">あなたは食料雑貨の買い物がいかに簡単か、どれくらいの時間とお金が節約されるかに驚くでしょう。   ＆lt; a href = \"http://blistapp.com\"＆gt;ここ＆lt; / a＆gt;にアクセスしてください。 もっと知るために。</string>
+
+    <string name="guide_shopping_list">あなたのリストは空です</string>
+    <string name="guide_pantry_list">あなたのリストは空です</string>
+    <string name="guide_recipe_book">レシピはありません。（）をクリックして追加してください</string>
+
+    <string name="rta_dialog_title">BListを評価する</string>
+    <string name="rta_dialog_message">あなたの投票はBListを改善するのに役立ちます、ありがとう！</string>
+    <string name="rta_dialog_ok">今</string>
+    <string name="rta_dialog_cancel">後</string>
+    <string name="rta_dialog_no">結構です</string>
+
+
+    <string name="update_app_dialog_title">新しいバージョンが利用可能</string>
+    <string name="update_app_dialog_message">更新しますか？</string>
+    <string name="update_app_button_update">今</string>
+    <string name="update_app_button_late">後</string>
+
+
+    <string-array name="categories">
+        <item>フルーツ</item>
+        <item>お肉</item>
+        <item>野菜</item>
+        <item>フローズン</item>
+        <item>ドリンク</item>
+        <item>ソース</item>
+        <item>スナック</item>
+        <item>シーフード</item>
+    </string-array>
+    <string-array name="ingredient_unit">
+        <item>各</item>
+        <item>ピース</item>
+        <item>バッグ</item>
+        <item>ボトル</item>
+        <item>ボックス</item>
+        <item>場合</item>
+        <item>パック</item>
+        <item>瓶</item>
+        <item>できる</item>
+        <item>束</item>
+        <item>ロール</item>
+        <item>ダース</item>
+        <item>小さい</item>
+        <item>大</item>
+        <item>カップ</item>
+        <item>TSP</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>l</item>
+        <item>pts</item>
+        <item>オンス</item>
+    </string-array>
+    <string name="abc_bought">買った</string>
+    <string name="colorpicker_dialog_title">色を選択してください</string>
+    <string name="action_multi_list">複数のリストを表示する</string>
+    <string name="action_manage_lists" translatable="false">リストを管理する</string>
+    <string name="toast_no_selected_list">選択したリストがありません</string>
+    <string name="dialog_title_choice_list" translatable="false">リストを選択</string>
+    <string name="shopping_multi_list_text_button">色を変える</string>
+    <string name="shopping_multi_list_text_choose_color">色を選択してください</string>
+    <string name="shopping_multi_list_text_current_color">現在の色</string>
+    <string name="action_quick_set_quantity">クイックセット数量</string>
+    <string name="toast_turn_on_keep_awake">画面が目を覚ます</string>
+    <string name="toast_turn_off_keep_awake">スクリーンは再びスリープ状態になる</string>
+
+
+</resources>

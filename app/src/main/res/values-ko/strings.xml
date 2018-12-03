@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_language">한국어</string>
+
+    <string name="default_name_shopping_list">쇼핑리스트</string>
+    <string name="default_name_pantry_list">재고 목록</string>
+    <string name="default_other_category">다른</string>
+    <string name="default_category_bought">샀다</string>
+    <string name="try_saying_something">말하다...</string>
+    <string name="item_hint">더하다</string>
+    <string name="all_text_add_item_to_list">에:</string>
+
+    <string name="abc_next">다음 것</string>
+    <string name="abc_skip">버킷</string>
+    <string name="abc_got_it">승인</string>
+    <string name="abc_create">몹시 떠들어 대다</string>
+    <string name="abc_cancel">취소</string>
+    <string name="abc_continue">잇다</string>
+    <string name="abc_confirm">확인</string>
+    <string name="abc_edit">최신 정보</string>
+    <string name="abc_delete">지우다</string>
+    <string name="abc_done">끝난</string>
+    <string name="abc_ingredient">성분</string>
+    <string name="abc_instruction">교수</string>
+    <string name="abc_low">낮은</string>
+    <string name="abc_full">완전한</string>
+    <string name="abc_back">뒤로</string>
+    <string name="abc_save">구하다</string>
+    <string name="abc_share">몫</string>
+    <string name="abc_share_via">몫...</string>
+    <string name="abc_quantity">수량</string>
+    <string name="abc_unit_price">가격</string>
+    <string name="abc_unit">단위</string>
+    <string name="abc_category">카테고리</string>
+    <string name="abc_notes">노트</string>
+    <string name="abc_undo"><u>Undo</u></string>
+    <string name="abc_add">더하다</string>
+    <string name="abc_settings">설정</string>
+    <string name="abc_languages">언어</string>
+    <string name="abc_backup">지원</string>
+    <string name="abc_restore">복원</string>
+    <string name="abc_expired">만료 된</string>
+    <string name="abc_created">만들어진</string>
+    <string name="abc_url">URL</string>
+
+    <string name="drawer_title">도움</string>
+    <string name="drawer_title_settings">설정</string>
+    <string name="drawer_shopping_list">쇼핑</string>
+    <string name="drawer_recipe">레시피</string>
+    <string name="drawer_pantry">목록</string>
+    <string name="drawer_about">약</string>
+    <string name="drawer_support">지원하다</string>&gt;
+    <string name="drawer_update_app">최신 정보*</string>
+
+    <string name="action_create_list">목록 만들기</string>
+    <string name="action_delete_all">모두 삭제</string>
+    <string name="action_check_all">모두 확인</string>
+    <string name="action_uncheck_all">모두 선택 취소</string>
+    <string name="action_delete_list">목록 삭제</string>
+    <string name="action_category_manage">카테고리 관리</string>
+    <string name="action_delete">지우다</string>
+    <string name="action_rename_list">목록 이름 바꾸기</string>
+    <string name="action_select_all">모두 선택</string>
+    <string name="action_unselect_all">모두 선택 해제</string>
+    <string name="action_to_pantrylist">인벤토리로 이동</string>
+
+
+    <string name="sl_showcase_swipe">스 와이프하여 삭제</string>
+    <string name="sl_showcase_move">움직임</string>
+    <string name="sl_cart_total_price">장바구니 합계 :</string>
+    <string name="sl_list_total_price">총 목록 :</string>
+    <string name="sl_cart_total">장바구니에있는 항목 :</string>
+    <string name="sl_list_total">목록의 항목 :</string>
+    <string name="shopping_to_pantry_header_label">저장하려면 선택하십시오.</string>
+
+    <string name="recipe_book_header">레시피</string>
+    <string name="recipe_detail_header">조리법 세부 정보</string>
+    <string name="recipe_book_warning_no_network">인터넷 없음</string>
+
+    <string name="list_share_text_header">공유하려면 선택하십시오.</string>
+
+    <string name="settings_autobackup_label">자동 백업</string>
+    <string name="settings_restore_header_label">백업 목록</string>
+    <string name="settings_restore_recycler_view_no_item_text">백업 안함</string>
+
+    <string name="clipboard_text_header">텍스트 가져 오기</string>
+    <string name="clipboard_product_text_header">가져 오기를 선택하십시오.</string>
+    <string name="clipboard_not_format_data">형식이 잘못되었습니다.</string>
+    <string name="clipboard_button_clear_data">명확한</string>
+    <string name="clipboard_button_import_text">수입</string>
+
+    <string name="toast_no_item_selected">선택한 항목이 없습니다.</string>
+    <string name="toast_list_empty">귀하의 목록은 비어 있습니다!</string>
+    <string name="toast_update_list_no_success">업데이트가 실패</string>
+    <string name="toast_no_internet_connection">인터넷 없음</string>
+    <string name="toast_backup_data_sucess">백업 성공</string>
+    <string name="toast_duplicate_name">이름이 존재 함</string>
+
+    <string name="dialog_title_rename_list">새 이름</string>
+    <string name="dialog_title_voice">너 ... 의미하니?</string>
+    <string name="dialog_title_category_update">새 이름</string>
+    <string name="dialog_title_select_language">언어 선택</string>
+    <string name="dialog_title_choose_site_recipe">웹 사이트 선택 :</string>
+    <string name="dialog_message_create_list">목록 이름</string>
+    <string name="dialog_message_create_category">카테고리 이름</string>
+    <string name="dialog_message_confirm_delete_item">지금 삭제 하시겠습니까?</string>
+    <string name="dialog_message_confirm_delete_all_item">모두 삭제 ?</string>
+    <string name="dialog_message_confirm_uncheck_all_item">모두 선택을 취소 하시겠습니까?</string>
+    <string name="dialog_message_confirm_delete_category">지금 삭제 하시겠습니까?</string>
+    <string name="dialog_message_confirm_delete_list">지금 삭제 하시겠습니까?</string>
+    <string name="dialog_message_confirm_delete_recipe_book">지금 삭제 하시겠습니까?</string>
+    <string name="dialog_message_confirm_delete_srcurl">지금 삭제 하시겠습니까?</string>
+    <string name="dialog_message_ingredient_to_shopping_list">추가 된 항목</string>
+    <string name="dialog_message_pantry_list_to_shopping_list">추가 된 항목</string>
+    <string name="dialog_message_shopping_list_to_pantry">추가 된 항목</string>
+    <string name="dialog_message_item_share_to_shopping_list">추가 된 항목</string>
+    <string name="dialog_message_add_item_website_sucess">추가 된 항목</string>
+    <string name="dialog_message_recipe_book_add_success">레서피 추가됨</string>
+    <string name="dialog_message_error">오류</string>
+    <string name="dialog_message_no_item_chooseed">선택한 항목 없음</string>
+    <string name="dialog_message_loading">로드 중 ...</string>
+    <string name="dialog_message_processing">잠시만 기다려주십시오 ...</string>
+    <string name="dialog_message_clipboard_no_data">데이터 없음</string>
+    <string name="dialog_message_backup_data">백업 지금?</string>
+    <string name="dialog_message_backup_delete_all">모든 백업을 삭제 하시겠습니까?</string>
+    <string name="dialog_message_restore_data">"복원은 모든 데이터를 덮어 씁니다 !!! 계속 하시겠습니까?"</string>
+
+    <string name="slide_1_title">환영!</string>
+    <string name="slide_1_desc">BList는 단순한 쇼핑 목록 응용 프로그램이 아니지만 방법은 가족 쇼핑을위한 비용과 노력을 절약하는 데 도움이됩니다.</string>
+    <string name="slide_2_title">쇼핑리스트</string>
+    <string name="slide_2_desc">빠른 추가 항목은 구매해야하며, 쇼핑 경로별로 항목을 정렬하고, 쇼핑을 추적해야합니다.</string>
+    <string name="slide_3_title">재고 목록</string>
+    <string name="slide_3_desc">위치 또는 목적별로 필요한 항목을 추적하고 만료 또는 리필을 상기시킵니다.</string>
+    <string name="slide_4_title">공유 및 보내기</string>
+    <string name="slide_4_desc">가족과 친구들과 쇼핑 잡일을 공유하고 목록 템플릿을 공유하십시오.</string>
+    <string name="slide_5_title">쇼핑 즐기기</string>
+    <string name="slide_5_desc">이 단계를 연습하면 식료품 쇼핑의 편리함과 시간과 비용을 절약 할 수 있습니다. \ n &lt;a href="http://help.blistapp.com"&gt; 여기 &lt;/a&gt;를 확인하십시오. 유용한 팁을 업데이트하고 BList를 자신의 방식대로 마스터 링하십시오.</string>
+
+    <string name="guide_shopping_list">귀하의 목록은 비어 있습니다.</string>
+    <string name="guide_pantry_list">귀하의 목록은 비어 있습니다.</string>
+    <string name="guide_recipe_book">레시피 없음, 추가하려면 ()를 클릭하십시오.</string>
+
+    <string name="rta_dialog_title">BList 평가</string>
+    <string name="rta_dialog_message">귀하의 투표는 BList 개선에 도움이 될 것입니다. 감사합니다!</string>
+    <string name="rta_dialog_ok">지금</string>
+    <string name="rta_dialog_cancel">후에</string>
+    <string name="rta_dialog_no">괜찮습니다</string>
+
+
+    <string name="update_app_dialog_title">새로운 버전 사용 가능</string>
+    <string name="update_app_dialog_message">업데이트 하시겠습니까?</string>
+    <string name="update_app_button_update">지금</string>
+    <string name="update_app_button_late">후에</string>
+
+
+    <string-array name="categories">
+        <item>과일</item>
+        <item>고기</item>
+        <item>야채</item>
+        <item>겨울 왕국</item>
+        <item>음료수</item>
+        <item>소스</item>
+        <item>간식</item>
+        <item>해물</item>
+    </string-array>
+    <string-array name="ingredient_unit">
+        <item>마다</item>
+        <item>조각</item>
+        <item>가방</item>
+        <item>병</item>
+        <item>상자</item>
+        <item>케이스</item>
+        <item>팩</item>
+        <item>항아리</item>
+        <item>양철통</item>
+        <item>다발</item>
+        <item>롤</item>
+        <item>다스</item>
+        <item>작은</item>
+        <item>큰</item>
+        <item>컵</item>
+        <item>TSP</item>
+        <item>지</item>
+        <item>킬로그램</item>
+        <item>엘</item>
+        <item>PTS</item>
+        <item>온스</item>
+    </string-array>
+    <string name="abc_bought">샀다</string>
+    <string name="colorpicker_dialog_title">색상 선택</string>
+    <string name="action_multi_list">다중 목록보기</string>
+    <string name="action_manage_lists" translatable="false">목록 관리</string>
+    <string name="toast_no_selected_list">선택한 목록 없음</string>
+    <string name="dialog_title_choice_list" translatable="false">목록 선택</string>
+    <string name="shopping_multi_list_text_button">색상 변경</string>
+    <string name="shopping_multi_list_text_choose_color">색상 선택</string>
+    <string name="shopping_multi_list_text_current_color">현재 색상</string>
+    <string name="action_quick_set_quantity">빠른 세트 수량</string>
+    <string name="toast_turn_on_keep_awake">화면이 깨어있게됩니다.</string>
+    <string name="toast_turn_off_keep_awake">화면을 다시 잠글 수 있습니다.</string>
+
+</resources>

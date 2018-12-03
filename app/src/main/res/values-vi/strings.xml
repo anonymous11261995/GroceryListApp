@@ -1,0 +1,202 @@
+<resources>
+    <string name="name_language">Tiếng Việt</string>
+    <!-- value -->
+    <string name="default_name_shopping_list">Mua sắm</string>
+    <string name="default_name_pantry_list">Dự trữ</string>
+    <string name="default_other_category">Loại khác</string>
+    <string name="default_category_bought">Đã mua</string>
+    <string name="try_saying_something">Hãy nói gì đó...</string>
+    <string name="item_hint">Thêm mục</string>
+    <!-- string -->
+    <string name="abc_next">Tiếp</string>
+    <string name="abc_skip">Bỏ qua</string>
+    <string name="abc_got_it">Ok</string>
+    <string name="abc_create">Tạo mới</string>
+    <string name="abc_cancel">Hủy</string>
+    <string name="abc_continue">Tiếp tục</string>
+    <string name="abc_confirm">Xác nhận</string>
+    <string name="abc_edit">Cập nhật</string>
+    <string name="abc_delete">Xóa</string>
+    <string name="abc_done">Hoàn tất</string>
+    <string name="abc_ingredient">Nguyên liệu</string>
+    <string name="abc_instruction">Hướng dẫn</string>
+    <string name="abc_low">ít</string>
+    <string name="abc_full">Đầy</string>
+    <string name="abc_back">Quay lại</string>
+    <string name="abc_save">Lưu</string>
+    <string name="abc_share">Chia sẻ</string>
+    <string name="abc_share_via">Chia sẻ qua</string>
+    <string name="abc_quantity">Số lượng</string>
+    <string name="abc_unit_price">Đơn giá</string>
+    <string name="abc_unit">Đơn vị</string>
+    <string name="abc_category">Phân nhóm</string>
+    <string name="abc_notes">Ghi chú</string>
+    <string name="abc_undo">" <u>Làm lại</u> "</string>
+    <string name="abc_add">Thêm</string>
+    <string name="abc_settings">Cài đặt</string>
+    <string name="abc_languages">Ngôn ngữ</string>
+    <!-- drawer -->
+    <string name="drawer_title">Trợ giúp</string>
+    <string name="drawer_title_settings">Cài đặt</string>
+    <string name="drawer_shopping_list">Mua sắm</string>
+    <string name="drawer_recipe">Nấu ăn</string>
+    <string name="drawer_pantry">Dự trữ</string>
+    <string name="drawer_about">Giới thiệu</string>
+    <string name="drawer_support">Hỗ trợ</string>>
+    <string name="drawer_update_app">Có bản cập nhật</string>
+    <!-- menu d'action -->
+    <string name="action_create_list">Tạo danh sách</string>
+    <string name="action_delete_all">Xóa hết</string>
+    <string name="action_check_all">Chọn cả</string>
+    <string name="action_uncheck_all">Bỏ chọn</string>
+    <string name="action_delete_list">Xóa danh sách</string>
+    <string name="action_category_manage">Quản lý danh sách</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_rename_list">Đổi tên danh sách</string>
+    <string name="action_select_all">Chọn cả</string>
+    <string name="action_unselect_all">Bỏ chọn</string>
+
+    <!-- liste de courses -->
+    <string name="sl_showcase_swipe">Vuốt sang phải để xóa</string>
+    <string name="sl_showcase_move">Di chuyển mục</string>
+    <string name="sl_cart_total_price">Tiền đã mua:</string>
+    <string name="sl_list_total_price">Tiền số tiền:</string>
+    <string name="sl_cart_total">Đã mua:</string>
+    <string name="sl_list_total">Tổng:</string>
+    <!-- Webview -->
+    <!-- recette -->
+    <string name="recipe_book_header">Sổ tay nấu ăn</string>
+    <string name="recipe_detail_header">Công thức nấu ăn</string>
+    <string name="recipe_book_warning_no_network">Không có kết nối internet</string>
+    <!-- Partage de liste -->
+    <string name="list_share_text_header">Chọn mục để chia sẻ</string>
+    <!-- Presse-papiers -->
+
+    <string name="clipboard_text_header">Nhập danh sách các mục</string>
+    <string name="clipboard_product_text_header">Chọn mục trong danh sách</string>
+
+    <string name="clipboard_not_format_data">Sai định dạng</string>
+    <string name="clipboard_button_clear_data">Xóa</string>
+    <string name="clipboard_button_import_text">Nhập</string>
+    <!-- Toast -->
+    <string name="toast_no_item_selected">Chưa có mục nào được chọn</string>
+    <string name="toast_list_empty">Danh sách trống</string>
+    <string name="toast_update_list_no_success">Không cập nhật được</string>
+    <string name="toast_no_internet_connection">Không có kết nối internet</string>
+    <!-- Dialogue -->
+    <string name="dialog_title_rename_list">Tên mới cho danh sách</string>
+    <string name="dialog_title_voice">Ý bạn là...</string>
+    <string name="dialog_title_category_update">Tên mới cho phân nhóm</string>
+    <string name="dialog_title_select_language">Chọn ngôn ngữ</string>
+    <string name="dialog_title_choose_site_recipe">Chọn website:</string>
+    <string name="dialog_message_create_list">Tên danh sách</string>
+    <string name="dialog_message_create_category">Tên của danh sách mới</string>
+    <string name="dialog_message_confirm_delete_item">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_confirm_delete_all_item">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_confirm_uncheck_all_item">Bạn chắc chắn bỏ chọn tất?</string>
+    <string name="dialog_message_confirm_delete_category">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_confirm_delete_list">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_confirm_delete_recipe_book">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_confirm_delete_srcurl">Bạn chắc chắn muốn xóa ?</string>
+    <string name="dialog_message_ingredient_to_shopping_list">Mục chọn đã được cho vào danh sách</string>
+    <string name="dialog_message_item_share_to_shopping_list">Mục chọn đã được cho vào danh sách</string>
+    <string name="dialog_message_add_item_website_sucess">Đã thêm vào Danh sách</string>
+    <string name="dialog_message_recipe_book_add_success">Công thức đã được thêm vào sổ tay</string>
+    <string name="dialog_message_error">Có lỗi xảy ra!</string>
+    <string name="dialog_message_no_item_chooseed">Mục chọn không có</string>
+    <string name="dialog_message_loading">Đang tải...</string>
+    <string name="dialog_message_clipboard_no_data">Không thấy dữ liệu</string>
+    <!-- slides welcome-->
+    <string name="slide_1_title">Xin chào bạn!</string>
+    <string name="slide_1_desc">BList không chỉ là một ứng dụng danh sách mua sắm mà còn giúp bạn tiết kiệm tiền và công sức khi mua sắm cho gia đình.</string>
+    <string name="slide_2_title">Danh sách đi chợ</string>
+    <string name="slide_2_desc">Nhanh chóng thêm các mục cần phải mua, sắp xếp các mặt hàng bằng đường mua sắm, theo dõi mua sắm.</string>
+    <string name="slide_3_title">Danh sách dự trữ</string>
+    <string name="slide_3_desc">Theo dõi các mục cần thiết theo vị trí hoặc mục đích, nhắc nhở hết hạn hoặc mua lại.</string>
+    <string name="slide_4_title">Chia sẻ và gửi</string>
+    <string name="slide_4_desc">Chia sẻ công việc mua sắm với các thành viên trong gia đình và bạn bè, chia sẻ các mẫu danh sách.</string>
+    <string name="slide_5_title">Chúc bạn mua sắm vui vẻ với BList!</string>
+    <string name="slide_5_desc">Khi thường xuyên lặp lại theo cách này, bạn sẽ tiết kiệm được rất nhiều thời gian và tiền bạc dành cho gia đình. Hãy tiếp tục sáng tạo và thưởng thức mua sắm với BList. Chúng tôi sẽ cập nhật hướng dẫn chi tiết và mẹo hay &lt;a href="http://help.blistapp.com"&gt; Tại Đây &lt;/a&gt;</string>
+    <!-- Évaluer l'application -->
+    <string name="rta_dialog_title">Đánh giá ứng dụng</string>
+    <string name="rta_dialog_message">Nếu bạn yêu thích BList, mong bạn dành 1 phút cho việc đánh giá. Cảm ơn vì đã giúp đỡ!</string>
+    <string name="rta_dialog_ok">Đánh giá bây giờ</string>
+    <string name="rta_dialog_cancel">Để sau</string>
+    <string name="rta_dialog_no">Không, cảm ơn!</string>
+
+    <!-- Mise à jour de l'application -->
+    <string name="update_app_dialog_title">Có bản cập nhật mới</string>
+    <string name="update_app_dialog_message">Phiên bản cập nhật của ứng dụng có trên Play Store, mời bạn cập nhật !</string>
+    <string name="update_app_button_update">Cập nhật luôn</string>
+    <string name="update_app_button_late">Để sau</string>
+    <!-- data init in locale-->
+    <string-array name="categories">
+            
+        <item> Thực phẩm tươi &#38; đông lạnh </item>
+            
+        <item> Đồ uống </item>
+            
+        <item> Rau củ quả </item>
+            
+        <item> Thực phẩm khô </item>
+            
+        <item> Đồ dùng gia đình </item>
+    </string-array>
+
+    <string-array name="ingredient_unit">
+        <item> quả</item>
+            
+        <item> củ </item>
+            
+        <item> cái</item>
+            
+        <item> mớ </item>  
+
+        <item> miếng </item>
+            
+        <item> túi </item>
+            
+        <item> chai </item>
+
+        <item> g </item>
+            
+        <item> kg </item>
+            
+        <item> l </item>
+
+    </string-array>
+    <string name="abc_backup">Sao lưu</string>
+    <string name="abc_restore">Khôi phục</string>
+    <string name="settings_autobackup_label">Tự động sao lưu</string>
+    <string name="settings_restore_header_label">Dữ liệu sao lưu</string>
+    <string name="settings_restore_recycler_view_no_item_text">Dữ liệu sao lưu trống</string>
+    <string name="shopping_to_pantry_header_label">Chọn mục thêm vào Dữ trự</string>
+    <string name="toast_backup_data_sucess">Sao lưu dữ liệu thành công</string>
+    <string name="dialog_message_pantry_list_to_shopping_list">Đã thêm mục đã chọn vào mua sắm</string>
+    <string name="dialog_message_shopping_list_to_pantry">Đã đánh dấu mục được thêm vào dự trữ</string>
+    <string name="dialog_message_backup_data">Bạn có chắc chắn sao lưu dữ liệu hiện tại này không?</string>
+    <string name="dialog_message_backup_delete_all">Bạn có chắc chắn muốn xóa tất cả sao lưu dữ liệu không?</string>
+    <string name="dialog_message_restore_data">Dữ liệu hiện tại này sẽ bị mất. Bạn có chắc chắn sẽ tiếp tục không?</string>
+    <string name="action_to_pantrylist">Chuyển đến dự trữ</string>
+    <string name="toast_duplicate_name">Trùng tên</string>
+    <string name="dialog_message_processing">Vui lòng chờ ...</string>
+    <string name="all_text_add_item_to_list">Thêm vào:</string>
+    <string name="guide_shopping_list">Danh sách trống</string>
+    <string name="guide_pantry_list">Danh sách trống</string>
+    <string name="guide_recipe_book">Danh sách trống</string>
+    <string name="abc_expired">Hết hạn</string>
+    <string name="abc_created">Ngày tạo</string>
+    <string name="abc_url">URL</string>
+    <string name="abc_bought">Đã mua</string>
+    <string name="colorpicker_dialog_title">Chọn màu sắc</string>
+    <string name="action_multi_list">Xem nhiều Danh sách</string>
+    <string name="action_manage_lists" translatable="false">Quản lý Danh sách</string>
+    <string name="toast_no_selected_list">Chưa có list nào được chọn</string>
+    <string name="dialog_title_choice_list" translatable="false">Chọn danh sách</string>
+    <string name="shopping_multi_list_text_button">Thay đổi</string>
+    <string name="shopping_multi_list_text_choose_color">Chọn màu</string>
+    <string name="shopping_multi_list_text_current_color">Màu hiện tại</string>
+    <string name="action_quick_set_quantity">Thay đổi số lượng</string>
+    <string name="toast_turn_on_keep_awake">Màn hình sẽ được giữ sáng</string>
+    <string name="toast_turn_off_keep_awake">Màn hình sẽ tắt nếu không sử dụng</string>
+</resources>
